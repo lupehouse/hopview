@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hopview Privacy Policy</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><img src="icon.png" alt=""><a href="./">Hopview</a></header>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Effective 17 November 2026 · <a href="#tr">Türkçe</a></p>
+
+  <p>Hopview lets you control your own Mac from your own iPhone or iPad. It is built so that we, the developer, never receive your screen, your input, your files or any personal data.</p>
+
+  <h2>What we collect</h2>
+  <p><strong>Nothing.</strong> Hopview has no user accounts, no analytics, no advertising, no tracking and no servers operated by us. We cannot see which devices you use or when you connect.</p>
+
+  <h2>How your connection works</h2>
+  <ul>
+    <li>Your iPhone or iPad and your Mac join your own <strong>Tailscale</strong> network (tailnet). You sign in to Tailscale with an account you choose; that sign-in happens on Tailscale's website.</li>
+    <li>Screen, keyboard, mouse and clipboard data travel <strong>end-to-end encrypted</strong> (WireGuard) between your devices, directly whenever possible. If no direct path exists, Tailscale relays the encrypted packets; relays cannot decrypt them.</li>
+    <li>To run your network, Tailscale's coordination service processes network metadata such as device names, operating system, IP addresses, public keys and your Tailscale login. This is governed by <a href="https://tailscale.com/privacy-policy">Tailscale's privacy policy</a>. Hopview turns off Tailscale's optional diagnostic log upload.</li>
+  </ul>
+
+  <h2>Data stored on your devices</h2>
+  <ul>
+    <li><strong>iPhone/iPad:</strong> a session key for your Mac in the iOS Keychain (protected by Face ID or Touch ID), your settings, and the Tailscale node state inside the app's container.</li>
+    <li><strong>Mac:</strong> your PIN (as a salted hash), the list of signed-in devices, settings, the Tailscale node state and a local log file in your user Library folder.</li>
+  </ul>
+  <p>Deleting the app removes this data from that device. On the Mac, “Sign Out All Devices” in the Hopview menu revokes every saved session.</p>
+
+  <h2>Purchases</h2>
+  <p>Subscriptions are processed by Apple. We receive no payment details or personal information. Manage or cancel your subscription in your App Store account settings.</p>
+
+  <h2>Children</h2>
+  <p>Hopview is a general-purpose utility and does not knowingly collect any data from anyone, including children.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, we will update this page and its effective date. Questions: <a href="mailto:h.yalnizcan@gmail.com">h.yalnizcan@gmail.com</a>.</p>
+
+  <hr>
+  <h1 id="tr">Gizlilik Politikası</h1>
+  <p class="muted">Yürürlük: 17 Kasım 2026</p>
+  <p>Hopview, kendi Mac'ini kendi iPhone ya da iPad'inden kontrol etmeni sağlar. Ekranın, girdilerin, dosyaların ya da kişisel verilerin geliştiriciye hiçbir zaman ulaşmayacak şekilde tasarlanmıştır.</p>
+  <h2>Topladığımız veriler</h2>
+  <p><strong>Hiçbiri.</strong> Hopview'da kullanıcı hesabı, analiz, reklam, izleme ya da bizim işlettiğimiz bir sunucu yoktur. Hangi cihazları kullandığını ya da ne zaman bağlandığını göremeyiz.</p>
+  <h2>Bağlantı nasıl çalışır</h2>
+  <ul>
+    <li>iPhone ya da iPad'in ve Mac'in kendi <strong>Tailscale</strong> ağına (tailnet) katılır. Tailscale'e seçtiğin bir hesapla, Tailscale'in sitesinde giriş yaparsın.</li>
+    <li>Ekran, klavye, fare ve pano verisi cihazların arasında <strong>uçtan uca şifreli</strong> (WireGuard), mümkün olduğunda doğrudan gider. Doğrudan yol yoksa şifreli paketleri Tailscale aktarır; aktarıcılar içeriği çözemez.</li>
+    <li>Ağının çalışması için Tailscale'in koordinasyon hizmeti cihaz adı, işletim sistemi, IP adresleri, açık anahtarlar ve Tailscale girişin gibi ağ bilgilerini işler. Bu, <a href="https://tailscale.com/privacy-policy">Tailscale'in gizlilik politikasına</a> tabidir. Hopview, Tailscale'in isteğe bağlı tanılama günlüğü gönderimini kapatır.</li>
+  </ul>
+  <h2>Cihazlarında saklananlar</h2>
+  <ul>
+    <li><strong>iPhone/iPad:</strong> iOS Anahtar Zinciri'nde Mac oturum anahtarı (Face ID ya da Touch ID korumalı), ayarların ve uygulama klasöründe Tailscale düğüm durumu.</li>
+    <li><strong>Mac:</strong> PIN'in (tuzlanmış özet olarak), giriş yapmış cihazların listesi, ayarlar, Tailscale düğüm durumu ve kullanıcı Kitaplığı'nda yerel bir günlük dosyası.</li>
+  </ul>
+  <p>Uygulamayı silmek bu verileri o cihazdan kaldırır. Mac'te Hopview menüsündeki “Kayıtlı bütün cihazların oturumunu kapat” bütün oturumları iptal eder.</p>
+  <h2>Satın almalar</h2>
+  <p>Abonelikler Apple tarafından işlenir. Ödeme bilgisi ya da kişisel bilgi almayız. Aboneliğini App Store hesap ayarlarından yönetebilir ya da iptal edebilirsin.</p>
+  <h2>Değişiklikler ve iletişim</h2>
+  <p>Politika değişirse bu sayfa ve yürürlük tarihi güncellenir. Sorular: <a href="mailto:h.yalnizcan@gmail.com">h.yalnizcan@gmail.com</a>.</p>
+
+  <footer><a href="./">Hopview</a> · <a href="support.html">Support</a></footer>
+</main>
+</body>
+</html>
