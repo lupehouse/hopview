@@ -18,3 +18,6 @@ a { color: var(--accent); }
 footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
 footer a { color: var(--muted); }
 hr { border: 0; border-top: 1px solid var(--card); margin: 40px 0; }
+
+.note { background: var(--bg, transparent); border-left: 3px solid var(--accent); padding: 6px 12px; margin: 8px 0; }
+button.btn { border: 0; font: inherit; font-weight: 600; cursor: pointer; }
