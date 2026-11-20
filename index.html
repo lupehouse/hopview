@@ -19,11 +19,11 @@
     <h3>1. Install Hopview on your Mac (free)</h3>
     <p>macOS 14 Sonoma or later.</p>
     <div id="onMac">
-      <a class="btn" href="https://github.com/rottenburten/hopview/releases/latest/download/Hopview-mac.zip">Download for Mac</a>
+      <a class="btn" href="https://github.com/lupehouse/hopview/releases/latest/download/Hopview-mac.zip">Download for Mac</a>
       <p class="muted">Open Hopview from your Downloads. It offers to move itself to Applications, then a setup window walks you through the rest: Tailscale sign-in, a PIN and two permissions.</p>
     </div>
     <div id="notMac" hidden>
-      <p class="note">The Mac app installs on your Mac. Open this page there to download it: <b>rottenburten.github.io/hopview</b></p>
+      <p class="note">The Mac app installs on your Mac. Open this page there to download it: <b>lupehouse.github.io/hopview</b></p>
       <button class="btn" id="share" type="button" hidden>Send this page to your Mac</button>
     </div>
     <h3>2. Get Hopview for iPhone and iPad</h3>
@@ -54,7 +54,7 @@
   if (navigator.share) {
     const b = document.getElementById('share');
     b.hidden = false;
-    b.onclick = () => navigator.share({ title: 'Hopview for Mac', url: 'https://rottenburten.github.io/hopview/' }).catch(() => {});
+    b.onclick = () => navigator.share({ title: 'Hopview for Mac', url: 'https://lupehouse.github.io/hopview/' }).catch(() => {});
   }
 })();
 </script>
